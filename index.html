@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title> Tutorials point</title>
+
+	<link rel="stylesheet" href="style.css">
+
+
+<body>
+	<nav>
+
+		<a href="./index.html"><i class="fa fa-car"></i>Home</a>
+
+		<a href="./contact.html"><i class="fa fa-car"></i>Contact</a>
+
+	</nav>
+
+	<h1 class="brown-text italic-text"> Hello thank you for coming to my site</h1>
+	<p class="brown-text italic-text">I am a coder</p>
+	<header>
+		<footer>
+
+			<div class="brown-text italic-text"> Some content here</div>
+
+			<h1 class="brown-text italic-text">Hi, I am Josef</h1>
+			<p class="brown-text italic-text"> I am going to be a website developer and you are on my practice site</p>
+			<img src="Images/guy.jpg" alt="profile photo" width="270" height="270">
+
+
+
+			<video width="320" height="240" controls>
+				<source src="videos/pexels-amit-1654216-1920x1080-30fps.mp4" type="video/mp4">
+				<source src="videos/pexels-amit-1654216-1920x1080-30fps.mp4" type="video/ogg">
+			</video>
+
+		</footer>
+
+
+
+
+		<h1 class="brown-text italic-text"> Hopefully you'll like my newest sites</h1>
+		<p class="brown-text italic-text">I will develop lots of websites. You have joined my newest one</p>
+</body>
+
+
+<p>I have gained imfromation in class</p>
+>
+
+
+<form class="my" label for="first name">First name</label> </label>
+	<input type="text" name="first-name" id="first-name" placeholder="hey write your name please...">
+	<br>
+	<label for="email">Email</label>
+	<input type="text" name="email" id="email">
+	<br>
+	<label for="last name">last_name</label>
+	<input type="text" name="last name" id="last name" formborder>
+	<br>
+	<label type="Birthday">Birthday</label>
+	<input type="text" name="birthday" id="birthday">
+
+	<input type="submit" value="Submit This Form">
+
+</form>
+
+<section class="stories-section">
+	<h1> My stories </h1>
+</section>
+<section>
+	<h1 class="Joke-title">Joke Generator</h1>
+	<h2>learn to laugh here</h2>
+	<div id="joking">
+		You don't look good
+	</div>
+	<button class="joke-button" onclick="randomInteger()">Generate Joke</button>
+</section>
+
+<footer>
+
+</footer>
+
+<script>
+
+
+	var first_name = "Ali";
+	var last_name = "Belaed";
+
+	function calculatesum(firstnumber, secondnumber) {
+		var sumOfTwoNumbers = firstNumber + secondNumber;
+		console.log(first_name);
+
+		return sumOfTwoNumbers
+	}
+	calculatesum(5, 10)
+
+	console.log("Sum of two numbers", sum)
+
+	var thisisanumber = "😃";
+	console.log(funnyEmoji);
+
+
+
+	function myFunction() {
+		var funnyEmoji = "😃";
+		console.log(funnyEmoji);
+		alert("Hey please dont click");
+
+	}
+
+	function changeName(customText) {
+		document.getElementById("intro").innerHTML = customText
+	}
+
+	var jokesArray = [
+		"A woman gets on a bus with her baby. The bus driver says: “Ugh, that’s the ugliest baby I’ve ever seen!” The woman walks to the rear of the bus and sits down, fuming. She says to a man next to her: “The driver just insulted me!” The man says: “You go up there and tell him off. Go on, I’ll hold your monkey for you",
+		"Police arrested two kids yesterday, one was drinking battery acid, the other was eating fireworks. They charged one – and let the other one off.",
+		"I’m on a whiskey diet. I’ve lost three days already.",
+		"My therapist says I have a preoccupation with vengeance. We’ll see about that.",
+		"I was in Tesco’s and I saw this man and woman wrapped in a barcode. I said, “Are you two an item?”"
+	]
+
+	var randomNumber = Math.random() * 4;
+
+	var randomInteger = Math.floor(randomNumber);
+
+	var randomJoke = jokesArray[randomInteger]
+
+	document.getElementById("joking").innerHTML = randomJoke
+
+
+
+
+
+
+
+
+</script>
+
+</html>

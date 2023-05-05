@@ -1,0 +1,132 @@
+h1 {
+    color: aquamarine;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.p {
+    border-width: 25px;
+    border-color: rgb(47, 30, 197);
+    border-style: double;
+    border-radius: 5%;
+    padding: 2.58%;
+
+    box-shadow: 0 5px 8px 2px rgba(83, 83, 83, 0.1);
+}
+
+
+.brown-text {
+    color: brown
+}
+
+
+.italic-text {
+    font-style: italic;
+}
+
+.large-font {
+    font-size: large;
+}
+
+h1 {
+    background-color: chartreuse;
+}
+
+.main-content {
+    color: aqua
+}
+
+.p {
+    border-color: rgb(29, 29, 228) 25px;
+    border-style: dotted;
+    margin-left: 530px;
+    margin-right: 600px;
+    padding: 2.58%;
+
+    box-shadow: 0 5px 8px 2px rgba(83, 83, 83, 0.1);
+}
+
+h1 {
+    border-top: 900px;
+    border-bottom: 900px;
+
+}
+
+p {
+    animation-name: big-color-animation;
+
+    animation-duration: 10s;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+body {
+    background-color: aqua;
+}
+
+h1 {
+    border-width: 7px;
+    border-style: double;
+    border-radius: 5%;
+    padding: 2.58%;
+
+    box-shadow: 0 5px 8px 2px rgba(83, 83, 83, 0.1);
+}
+
+input[type=submit] {
+    background-color: cyan;
+    font-size: 17px;
+    border: radius 7px;
+}
+
+.stories-section {
+    background: linear-gradient(-45deg, cyan, orange);
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    padding: 20px;
+
+    background-size: cover;
+    color: rgb(20, 187, 56);
+}
+
+/*Jokes CSS*/
+.joke title {
+    color: aqua !important;
+}
+
+#jokeDisplay {
+    border-radius: 2.5px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-style: solid;
+    padding: 6px;
+    font-size: larger;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace
+}
+
+.jokebutton {
+    border: 7px;
+    padding: 4px;
+    border-radius: 2.5px;
+    border-style: double;
+    font-size: x-large
+}
+
+
+
+.myForm {
+    border-width: ;
+}
