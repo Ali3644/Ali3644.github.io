@@ -1,11 +1,12 @@
 h1 {
-    color: aquamarine;
+    color: rgb(0, 0, 0);
     font-family: 'Courier New', Courier, monospace;
 }
 
 .p {
+    border-top: 25px;
     border-width: 25px;
-    border-color: rgb(47, 30, 197);
+    border-color: rgb(18, 221, 28);
     border-style: double;
     border-radius: 5%;
     padding: 2.58%;
@@ -15,7 +16,7 @@ h1 {
 
 
 .brown-text {
-    color: brown
+    color: rgb(10, 7, 7)
 }
 
 
@@ -28,15 +29,15 @@ h1 {
 }
 
 h1 {
-    background-color: chartreuse;
+    background-color: darkgreen;
 }
 
 .main-content {
-    color: aqua
+    color: rgb(5, 7, 7)
 }
 
 .p {
-    border-color: rgb(29, 29, 228) 25px;
+    border-color: rgb(4, 4, 5) 25px;
     border-style: dotted;
     margin-left: 530px;
     margin-right: 600px;
@@ -73,10 +74,16 @@ p {
 }
 
 body {
-    background-color: aqua;
+    background: linear-gradient(-45deg, cyan, red);
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+    padding: 7px;
+    ;
 }
 
 h1 {
+    border-top: 15px;
+    ;
     border-width: 7px;
     border-style: double;
     border-radius: 5%;
@@ -85,6 +92,17 @@ h1 {
     box-shadow: 0 5px 8px 2px rgba(83, 83, 83, 0.1);
 }
 
+.h1 {
+    border-top: 15px;
+    border-width: 7px;
+    border-style: double;
+    border-radius: 5%;
+    padding: 2.58%;
+
+    box-shadow: 0 5px 8px 2px rgba(5, 4, 4, 0.1);
+}
+
+
 input[type=submit] {
     background-color: cyan;
     font-size: 17px;
@@ -92,18 +110,26 @@ input[type=submit] {
 }
 
 .stories-section {
-    background: linear-gradient(-45deg, cyan, orange);
+    background: linear-gradient(-45deg, green, purple);
     animation: gradient 15s ease infinite;
     height: 100vh;
-    padding: 20px;
+    padding: 7px;
+}
 
-    background-size: cover;
-    color: rgb(20, 187, 56);
+.stories-section {
+    border-top: 15px;
+    border: 30px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 3.5%;
+    padding: 4.58%;
+
+    box-shadow: 7px 6px 2px 0 rgba(83, 83, 83, 0.1);
 }
 
 /*Jokes CSS*/
+
 .joke title {
-    color: aqua !important;
+    color: rgb(2, 3, 3) !important;
 }
 
 #jokeDisplay {
@@ -118,15 +144,9 @@ input[type=submit] {
 }
 
 .jokebutton {
-    border: 7px;
-    padding: 4px;
+    border: 4px;
+    padding: 2.5px;
     border-radius: 2.5px;
     border-style: double;
     font-size: x-large
-}
-
-
-
-.myForm {
-    border-width: ;
 }
